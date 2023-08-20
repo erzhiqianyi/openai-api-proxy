@@ -1,0 +1,15 @@
+name = "openai-proxy"
+main = "src/index.ts"
+compatibility_date = "2023-08-20"
+usage_model = "bundled"
+env = { }
+
+[triggers]
+crons = [ ]
+
+[vars]
+BOT_TOKEN = "6249167503:AAEoPUHcuqWW5mrk1kt6k6HPg7lCOABzCNA"
+
+[[kv_namespaces]]
+id = "945770182a8f4b158f55349c10de9c7c"
+binding = "KV"
